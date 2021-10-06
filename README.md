@@ -19,6 +19,6 @@ OK
 1306462616.036890 "MONITOR"
 1306462620.482914 "publish" "rubyonrails" "{\"user\":\"qrush\",\"msg\":\"Hello world\"}"
 ```
-on your pub.rb terminal tab, type another message and you should see the message reflect in your 'MONITOR' terminal window tab
+on your pub.rb terminal tab, type another message and you should see the message reflect in your 'MONITOR' terminal window tab.  
 4. Open a fourth terminal window to create a subscriber (that will subscribe to the rubyonrails channel):
 `$ruby lib/sub.rb`.  This will open up a listener on the channel, and any messages published to that channel will reflect here.
